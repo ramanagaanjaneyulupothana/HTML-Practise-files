@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Inter Document Links</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 3fr 9fr;
+        }
+        iframe{
+            width: 100%;
+            height: 450px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <!--Different Ways to Open Documents by using Links -->
+    <div class="container">
+        <div id="leftPannel">
+            <ol><h2>Pages</h2>
+                <li><a href="Layout.html" target="_blank">Layout</a></li>
+                <li><a href="AmazonFooter.html">Amazon Footer</a></li>
+                <li><a href="Cards_Layout.html" download="Cards from Amazon">Cards</a></li>
+                <li><a href="intraDocumentLinks.html" target="frameBody">Link1</a></li>
+                <li><a href="javascript:window.open('intraLinksIssues.html', 'Hover Layout', 'width=500 height=500')">Link2</a></li>
+                <li><a href="mailto:lionramaanjaneyulu@gmail.com">EMail us</a></li>
+                <li><a href="tel:+919391022027">Call us</a></li>
+                <li><a href="skype:nareshithr@outllok.com">Skype us</a></li>
+                <li><a href="https://www.youtube.com/embed/hKB-YGF14SY" target="frameBody">Short Vid</a></li>
+            </ol>
+        </div>
+
+        <div id="rightPannel">
+            <iframe name="frameBody"></iframe>
+        </div>
+    </div>
+</body>
+</html>
