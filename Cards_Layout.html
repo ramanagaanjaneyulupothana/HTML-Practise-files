@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cards</title>
+    <style>
+        #container{
+            /*display:flex;
+            this also like floting left. but it is not Responsive
+            flex-wrap:wrap; This is Responsive
+            */
+        }
+        #card{
+            float: left;
+            margin: 40px;
+            text-align: center;
+            border: 2px solid black;
+            box-shadow: 3px 3px 2px gray;
+            padding: 15px;
+        }
+        #card-header{
+            background-color: tomato;
+        }
+        h3{
+            font-size: 30px;
+            text-shadow: 3px 3px 2px black;
+            color: white;
+            padding: 5px;
+        }
+        button{
+            width: 100%;
+            font-size: 20px;
+            background-color: tomato;
+            color: white;
+            box-shadow: 2px 2px 2px black;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="card">
+            <div id="card-header">
+                <h3>Ron Weasily</h3>
+            </div>
+            <div id="card-body">
+                <img src="./Assets/h2.png" width="200" height="220">
+                <p>&#8377; <strike>9999</strike> 5000.00</p>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-half"></span>
+            </div>
+            <div id="card-footer">
+                <button><span class="bi bi-cart4"></span>Add to Cart</button>
+            </div>
+        </div>
+        <div id="card">
+            <div id="card-header">
+                <h3>Thor</h3>
+            </div>
+            <div id="card-body">
+                <img src="./Assets/a7.jpg" width="200" height="220">
+                <p>&#8377; 4750.30</p>
+            </div>
+            <div id="card-footer">
+                <button><span class="bi bi-cart4"></span>Add to Cart</button>
+            </div>
+        </div>
+        <div id="card">
+            <div id="card-header">
+                <h3>Iron Man</h3>
+            </div>
+            <div id="card-body">
+                <img src="./Assets/a5.JPG" width="200" height="220">
+                <p> &#8377; 5000.50</p>
+            </div>
+            <div id="card-footer">
+                <button><span class="bi bi-cart4"></span>Add to Cart</button>
+            </div>
+        </div>
+        <div id="card">
+            <div id="card-header">
+                <h3>Captain America</h3>
+            </div>
+            <div id="card-body">
+                <img src="./Assets/a6.JPG" width="200" height="220">
+                <p>&#8377; 4500.75</p>
+            </div>
+            <div id="card-footer">
+                <button><span class="bi bi-cart4"></span>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
